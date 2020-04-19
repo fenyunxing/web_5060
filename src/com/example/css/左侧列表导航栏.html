@@ -1,0 +1,81 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>垂直导航菜单</title>
+    <style type="text/css">
+        .shoppingNav{
+            /* 设置宽度高度背景颜色 */
+            height: auto; /*高度改为自动高度*/
+            width: 20%;
+            margin-left: 0;
+            background:#FF0033;
+            position: relative;
+            top: 10px;/*离顶部的距离为0*/
+
+        }
+        .shoppingNav ul{
+            /* 清除ul标签的默认样式 */
+            width: auto;/*宽度也改为自动*/
+            list-style-type: none;
+            white-space:nowrap;
+            overflow: hidden;
+            margin-left: 2%;
+            /* margin-top: 0;          */
+            padding: 0;
+
+        }
+        .shoppingNav li {
+            float: none;
+            position: relative;
+            overflow: hidden;
+        }
+        .shoppingNav li a{
+            /* 设置链接内容显示的格式*/
+            display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+            color:#eff3f5;
+            text-align: left;
+            padding: 3px;
+            overflow: hidden;
+            text-decoration: none; /* 去除下划线 */
+
+        }
+        .shoppingNav li a:hover{
+            /* 鼠标选中时背景变为黑色 */
+            background-color: #FF6600 ;
+        }
+        .shoppingNav ul li ul{
+            /* 设置二级菜单 */
+            background:rgb(189, 181, 181);
+            position: relative;
+            display: none; /* 默认隐藏二级菜单的内容 */
+
+        }
+        .shoppingNav ul li ul li{
+            /* 二级菜单li内容的显示 */
+            float:none;
+            text-align: center;
+        }
+        .shoppingNav ul li:hover ul{
+            /* 鼠标选中二级菜单内容时 */
+            display: block;
+            background-color: #FF0033;
+        }
+    </style>
+</head>
+<body>
+<div class="shoppingNav">
+<ul >
+    <li><a href="#"><h1>宝贝分类</h1></a></li>
+    <li><a href="#"><h2>> 活动专区</h2></a>
+        <ul >
+            <li> <a href="#"> <h3>包邮区</h3> </a> </li>
+            <li> <a href="#"> <h3>白菜区</h3> </a> </li>
+        </ul>
+    </li>
+    <li><a href="#"><h2>> 上衣</h2></a></li>
+    <li><a href="#"><h2>> 裙子</h2></a></li>
+    <li><a href="#"><h2>> 裤子</h2></a></li>
+</ul>
+</div>
+</body>
+</html>

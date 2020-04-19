@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>table 标签</title>
+</head>
+<body>
+<!--定义一个学生表格-->
+<table border="2" cellpadding="5" cellspacing="2" bgcolor="#7fffd4"  width="100%">
+    <!--表的一行-->
+    <tr align="center">
+        <td >id</td>
+        <td>姓名</td>
+        <td>学号</td>
+    </tr>
+    <!--表的一行-->
+    <tr>
+        <td>1</td>
+        <td>tom</td>
+        <td>123456</td>
+    </tr>
+    <!--表的一行-->
+    <tr>
+        <td>2</td>
+        <td>bob</td>
+        <td>147852</td>
+    </tr>
+</table>
+<br/>
+<br/>
+<br/>
+
+<!--定义一个企业职工薪水表格-->
+<table border="2" align="center" width="100%" bgcolor="#f0f8ff" rules="groups">
+    <!--表格标题-->
+    <caption>企业职工薪水绩效表</caption>
+    <!--表头属性行-->
+    <thead>
+    <tr align="center">
+        <th>员工编号</th>
+        <th>员工岗位</th>
+        <th>基本工资</th>
+        <th>本月绩效</th>
+    </tr>
+    </thead>
+    <!--表内容主体1-->
+    <tbody>
+    <tr align="center">
+        <td>YF0016</td>
+        <td>JAVA高级工程师</td>
+        <td>6000</td>
+        <td>3000</td>
+    </tr>
+    <tr align="center">
+       <td>YF0021</td>
+       <td>Java程序员</td>
+       <td>3000</td>
+       <td>2500</td>
+    </tr>
+    </tbody>
+    <!--表内容主体2-->
+    <tbody>
+    <tr align="center">
+        <td>YF0062</td>
+        <td>JAVA前端工程师</td>
+        <td>6000</td>
+        <td>3000</td>
+    </tr>
+    <tr align="center">
+       <td>YF0045</td>
+       <td>Android开发工程师</td>
+       <td>3000</td>
+       <td>2500</td>
+    </tr>
+    </tbody>
+    <!--表尾-->
+    <tfoot>
+    <tr align="right">
+       <td></td>
+       <td></td>
+       <td>总计：</td>
+       <td>xxxx万</td>
+    </tr>
+    </tfoot>
+</table>
+
+<!--table页面布局--->
+
+<table width="500" border="0">
+    <tr>
+        <td colspan="2" style="background-color:#FFA500;">
+            <h1>主要的网页标题</h1>
+        </td>
+    </tr>
+
+    <tr>
+        <td style="background-color:#FFD700;width:100px;vertical-align:top;">
+            <b>菜单</b><br>
+            HTML<br>
+            CSS<br>
+            JavaScript
+        </td>
+        <td style="background-color:#eeeeee;height:200px;width:400px;vertical-align:top;">
+            内容在这里</td>
+    </tr>
+
+    <tr>
+        <td colspan="2" style="background-color:#FFA500;text-align:center;">
+            版权 © runoob.com</td>
+    </tr>
+</table>
+
+</body>
+</html>

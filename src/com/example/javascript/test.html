@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        var sparql='select ?x ?y ?y1 where' +
+            ' {' +
+            ' ?x <http://www.w3.org/2000/01/rdf-schema#label> "SARS-CoV-2"@en.' +
+            ' ?x <表达> ?y.' +
+            ' ?y <http://www.w3.org/2000/01/rdf-schema#label> ?y1.' +
+            ' }';
+
+        $.ajax({
+            url:'http://cloud.gstore.cn/api',
+            dataType:'json',
+            data:{
+                action:'queryDB',
+                accesskeyid:'08745175bc8c43de8e981706a4c1df6a',
+                access_secret:'D8B3D8179CD1F857F61BD406F3690CBA',
+                dbName:'新冠科研图谱-中文',//总共有十个图谱，详情请见上文
+                sparql:sparql//查询SPARQL语句
+            },
+            success:function(data,status)
+            {
+                //data为json对象，详见http://cloud.gstore.cn/gStoreAPI.html
+                console.log(data);
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
