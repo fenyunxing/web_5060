@@ -18,6 +18,7 @@
             height: 100%;
             margin: 0;
             padding: 0;
+            background:  #E6E6E6;
         }
 
         /*测试容器大小*/
@@ -99,6 +100,7 @@
             margin-right: 65px;
             padding-left: 10px;
             background: #88B8FF;
+            border: 1px solid #88B8FF;
         }
 
         .moive-list-content {
@@ -130,6 +132,19 @@
         }
         .list-group li a:hover{
             color: #2121EF;
+        }
+
+        .friend-link-content {
+            height: 80px;
+            margin-left: 55px;
+            margin-right: 55px;
+            color: dodgerblue;
+            background: #F7F7F7;
+        }
+        .friend-link-content h4{
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -234,7 +249,7 @@
     <!--主体内容1-->
     <div class="row clearfix body1-container">
         <!--电影推荐栏--->
-        <div class="col-md-8 column border">
+        <div class="col-md-8 column ">
             <!--电影标题栏--->
             <div class="row ">
                 <div class="col-md-12 column">
@@ -311,11 +326,11 @@
             </div>
         </div>
         <!--电影列表栏--->
-        <div class="col-md-4 column border">
+        <div class="col-md-4 column ">
             <!--列表标题-->
             <div class="row clearfix">
-                <div class="col-md-12 column border">
-                    <div class="moive-list-header border">
+                <div class="col-md-12 column ">
+                    <div class="moive-list-header ">
                         <h4 >点播排行</h4>
                     </div>
                 </div>
@@ -342,10 +357,368 @@
 
         </div>
     </div>
+    <!--主体1内容结束-->
 
-    <!--主体内容结束-->
+    <!--主体内容2-->
+    <div class="row clearfix body1-container">
+        <!--电影推荐栏--->
+        <div class="col-md-8 column ">
+            <!--电影标题栏--->
+            <div class="row ">
+                <div class="col-md-12 column">
+                    <div class="moive-header ">
+                        <h4 class="pull-left">最新电视剧</h4>
+                        <h5 class="pull-right">更多>></h5>
+                    </div>
+                </div>
+            </div>
+            <!--电影展示-->
+            <div class="row">
+                <div class="moive-show-contianer">
+                    <div class=" col-md-3 column ">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive1.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>木兰之巾帼英豪</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive2.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>最燃的拳头</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive3.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>纳尼亚传奇</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive4.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>AI</p></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="moive-show-contianer">
+                    <div class=" col-md-3 column ">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive6.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>斗破苍穹</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive7.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>郎在远方</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive8.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>在世界中心呼唤爱</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive9.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>终结者:创世纪</p></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--电影列表栏--->
+        <div class="col-md-4 column ">
+            <!--列表标题-->
+            <div class="row clearfix">
+                <div class="col-md-12 column ">
+                    <div class="moive-list-header ">
+                        <h4 >点播排行</h4>
+                    </div>
+                </div>
+            </div>
+            <!--列表内容--->
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="moive-list-content">
+                        <ol class="list-group" >
+                            <li class="list-group-item"><span class="rounded movie-list-num">1</span> <a href="#">电影名</a> <span class=" pull-right">2252 <sup>o</sup>C</span></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">2</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">3</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">4</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">5</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">6</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">7</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">8</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">9</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">10</span><a href="#">电影名</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+    </div>
+    <!--主体内容2结束--->
 
+    <!--主体内容3-->
+    <div class="row clearfix body1-container">
+        <!--电影推荐栏--->
+        <div class="col-md-8 column ">
+            <!--电影标题栏--->
+            <div class="row ">
+                <div class="col-md-12 column">
+                    <div class="moive-header ">
+                        <h4 class="pull-left">最新动漫</h4>
+                        <h5 class="pull-right">更多>></h5>
+                    </div>
+                </div>
+            </div>
+            <!--电影展示-->
+            <div class="row">
+                <div class="moive-show-contianer">
+                    <div class=" col-md-3 column ">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive1.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>木兰之巾帼英豪</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive2.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>最燃的拳头</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive3.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>纳尼亚传奇</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive4.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>AI</p></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="moive-show-contianer">
+                    <div class=" col-md-3 column ">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive6.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>斗破苍穹</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive7.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>郎在远方</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive8.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>在世界中心呼唤爱</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive9.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>终结者:创世纪</p></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--电影列表栏--->
+        <div class="col-md-4 column ">
+            <!--列表标题-->
+            <div class="row clearfix">
+                <div class="col-md-12 column ">
+                    <div class="moive-list-header ">
+                        <h4 >点播排行</h4>
+                    </div>
+                </div>
+            </div>
+            <!--列表内容--->
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="moive-list-content">
+                        <ol class="list-group" >
+                            <li class="list-group-item"><span class="rounded movie-list-num">1</span> <a href="#">电影名</a> <span class=" pull-right">2252 <sup>o</sup>C</span></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">2</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">3</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">4</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">5</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">6</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">7</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">8</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">9</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">10</span><a href="#">电影名</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--主体内容3结束-->
+
+    <!--主体内容4-->
+    <div class="row clearfix body1-container">
+        <!--电影推荐栏--->
+        <div class="col-md-8 column ">
+            <!--电影标题栏--->
+            <div class="row ">
+                <div class="col-md-12 column">
+                    <div class="moive-header ">
+                        <h4 class="pull-left">最新综艺</h4>
+                        <h5 class="pull-right">更多>></h5>
+                    </div>
+                </div>
+            </div>
+            <!--电影展示-->
+            <div class="row">
+                <div class="moive-show-contianer">
+                    <div class=" col-md-3 column ">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive1.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>木兰之巾帼英豪</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive2.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>最燃的拳头</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive3.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>纳尼亚传奇</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive4.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>AI</p></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="moive-show-contianer">
+                    <div class=" col-md-3 column ">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive6.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>斗破苍穹</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive7.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>郎在远方</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive8.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>在世界中心呼唤爱</p></div>
+                        </a>
+                    </div>
+                    <div class=" col-md-3 column">
+                        <a href="#" class="thumbnail">
+                            <img src="image/moive9.jpg"
+                                 alt="通用的占位符缩略图">
+                            <div class="moive-show-name"><p>终结者:创世纪</p></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--电影列表栏--->
+        <div class="col-md-4 column ">
+            <!--列表标题-->
+            <div class="row clearfix">
+                <div class="col-md-12 column ">
+                    <div class="moive-list-header ">
+                        <h4 >点播排行</h4>
+                    </div>
+                </div>
+            </div>
+            <!--列表内容--->
+            <div class="row clearfix">
+                <div class="col-md-12 column">
+                    <div class="moive-list-content">
+                        <ol class="list-group" >
+                            <li class="list-group-item"><span class="rounded movie-list-num">1</span> <a href="#">电影名</a> <span class=" pull-right">2252 <sup>o</sup>C</span></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">2</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">3</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">4</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">5</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">6</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">7</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">8</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">9</span><a href="#">电影名</a></li>
+                            <li class="list-group-item"><span class="rounded movie-list-num">10</span><a href="#">电影名</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--主体内容4结束-->
+
+    <!--友情提示链接栏--->
+    <div class="row clearfix">
+        <div class="col-md-12 column ">
+            <div class="friend-link-content border">
+            <h4><span class="glyphicon glyphicon-hand-right"></span> 友情链接<span class="pull-right"><small>申请链接：*****@163.com</small></span></h4>
+            </div>
+        </div>
+    </div>
+    <!--友情提示链接栏结束--->
+   <!--footer-->
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-12 column border">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    <!--footer结束-->
 </div>
 </body>
 </html>
