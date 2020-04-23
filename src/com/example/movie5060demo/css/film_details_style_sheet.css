@@ -1,0 +1,83 @@
+@charset "utf-8";
+/*电影细节介绍栏*/
+.left-picture {
+    text-align: center;
+}
+
+.play-btn {
+    margin-top: 8px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.detail-introduction-content {
+    margin: 5px;
+    padding: 5px;
+    background: #FFFFFF;
+}
+
+/*选集栏*/
+.selected-set-content{
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px solid #E6E6E6;
+    background: #FFFFFF;
+}
+
+.selected-set-title {
+    border: 1px solid #E6E6E6;
+}
+.selected-set-title h4{
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.selected-set-btn-row {
+border-left: 1px solid #E6E6E6;
+border-right: 1px solid #E6E6E6;
+}
+.selected-set-btn-row a {
+  background: #C4C4C4;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.selected-set-warn-text {
+    border: 1px solid #E6E6E6;
+}
+.selected-set-warn-text p {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*相关视频栏*/
+.related-videos-content {
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px solid #E6E6E6;
+    background: #FFFFFF;
+}
+
+.related-videos-title {
+    border-bottom: 1px solid #E6E6E6;
+}
+.related-videos-title h5{
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.related-videos-show {
+    margin-top: 10px;
+}
+
+/*剧情简介*/
+.brief-introduction {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+
+}

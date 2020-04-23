@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*主体上面标题栏*/
+.body-title-content a{
+    text-decoration: none;
+}
+.body-title-content a:link{
+   color: lightslategrey;
+}
+.body-title-content a:hover{
+   color: #2121EF;
+}
+.body-title-content span{
+   font-weight: bold;
+}
+
+/*分页栏*/
+.paging-content {
+    margin-left: 190px;
+    margin-right: 190px;
+    text-align: center;
+}
+/*底部分割线*/
+.bottom-cut-off-line {
+    width: 100%;
+    border: 1px solid #2121EF;
+}
